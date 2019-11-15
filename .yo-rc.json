@@ -1,0 +1,49 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.mycompany.myapp"
+    },
+    "jhipsterVersion": "6.5.0",
+    "applicationType": "microservice",
+    "baseName": "ms04",
+    "packageName": "com.mycompany.myapp",
+    "packageFolder": "com/mycompany/myapp",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZmUzY2Q2ZTg0MWE1Njg5YzI1ZDViZmE0OTU0Y2JiYzdmMDRmZDk5NDA3NGFhMWU4ZDYyNTc1M2QxZWNiMWFkZTQyYmU3OWVjMzMwNDA4NzAyMzUxZTFiYmIwNWVhN2JjZmU2OGNhMTFiMTFiMTgyNDE4YzM3M2YzNzRhZjExZWI=",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true,
+    "appsFolders": [
+      "ms04"
+    ],
+    "directoryPath": "../",
+    "clusteredDbApps": [],
+    "dockerRepositoryName": "gcr.io/payment-platform-204588",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "nothing",
+    "kubernetesServiceType": "LoadBalancer",
+    "ingressDomain": "",
+    "monitoring": "no",
+    "istio": false
+  }
+}

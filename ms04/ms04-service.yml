@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ms04
+  namespace: nothing
+  labels:
+    app: ms04
+spec:
+  selector:
+    app: ms04
+  ports:
+    - name: http
+      port: 8080
